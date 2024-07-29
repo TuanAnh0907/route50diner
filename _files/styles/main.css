@@ -1,0 +1,787 @@
+body {
+    background: url("/_ima/fade.jpg") repeat-x #ffffff top center fixed;
+    margin: 0;
+    padding: 0;
+    font: 11pt/17pt Helvetica, Arial, sans-serif;
+    color: #434343;
+}
+
+/*____________________________________________________________________________________________ Links _*/
+
+a:link {
+    color: #F31D1D;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F31D1D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F31D1D;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #F31D1D;
+    text-decoration: underline;
+}
+
+/*____________________________________________________________________________________________ Helpers _*/
+
+.clearer {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.display-block {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.content-breaker {
+    background: url("/_ima/content-breaker.jpg") no-repeat;
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    width: 940px;
+    height: 10px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+.notice {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.notice strong {
+    color: red;
+}
+
+/*____________________________________________________________________________________________ Fixed Presets _*/
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0px 0px 0px 20px;
+}
+
+ul li {
+    background: url(/);
+    padding: 0;
+    margin: 0;
+    line-height: 20px
+}
+
+/*____________________________________________________________________________________________ ClosedBar Layout _*/
+
+#topbar {
+    background: url("/_ima/topbar-bg.jpg") repeat-x;
+    width: 100%;
+    height: 57px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#topbar img {
+    margin: 0;
+    padding: 0;
+}
+
+/*____________________________________________________________________________________________ Main Layout _*/
+
+#checkers {
+    background: url("/_ima/checkers.gif") repeat top center fixed;
+    width: 100%;
+}
+
+#container {
+    width: 988px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#banner {
+    background: url("/_ima/banner-bg.png") no-repeat;
+    width: 100%;
+    height: 198px;
+}
+
+#route50 {
+    position: absolute;
+}
+
+#route50 img {
+    margin: 10px 0 0 50px;
+    border: 0;
+}
+
+#navigation {
+    width: 724px;
+    height: 28px;
+    margin: 0;
+    padding: 82px 0 0 0;
+    float: right;
+}
+
+a.nav-menu {
+    background: url("/_ima/nav-menu.gif") no-repeat;
+    width: 52px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-location {
+    background: url("/_ima/nav-location.gif") no-repeat;
+    width: 75px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-events {
+    background: url("/_ima/nav-events.gif") no-repeat;
+    width: 59px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-catering {
+    background: url("/_ima/nav-catering.gif") no-repeat;
+    width: 76px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-gallery {
+    background: url("/_ima/nav-gallery.gif") no-repeat;
+    width: 67px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-birthday {
+    background: url("/_ima/nav-birthday.gif") no-repeat;
+    width: 88px;
+    height: 28px;
+    float: left;
+}
+
+a.nav-about {
+    background: url("/_ima/nav-about.gif") no-repeat;
+    width: 55px;
+    height: 28px;
+    float: left;
+}
+
+a.navhover {
+    padding: 0 15px 0 15px;
+}
+
+a.navhover:hover {
+    background-position: 0 -28px;
+}
+
+#social {
+    width: 85px;
+    float: right;
+    clear: both;
+    padding: 35px 30px 0 0;
+}
+
+#social img {
+    margin: 0 0 0 4px;
+    padding: 0;
+    border: 0;
+    float: right;
+}
+
+#content-shade {
+    background: url("/_ima/content-shade.png") repeat;
+    _background: url("/_ima/chesckers.gif") no-repeat black;
+    width: 972px;
+    margin: 0 auto;
+}
+
+#content {
+    background: url("/_ima/boomarangs.gif") #fff no-repeat;
+    width: 960px;
+    height: 100%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.pagetitle {
+    margin: 10px 0 15px 0;
+    padding: 0;
+    display: block;
+}
+
+.shadebreaker {
+    background: url(/_ima/shadebreaker.png) no-repeat;
+    width: 960px;
+    height: 15px;
+    line-height: 0;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#bottom {
+    background: url("/_ima/bottombg.png") no-repeat;
+    width: 969px;
+    height: 104px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.copyright {
+    margin: 0;
+    padding: 33px 0 0 22px;
+    width: 400px;
+    float: left;
+    color: #d6d6d6;
+    font-size: 11px;
+}
+
+.copyright a, .copyright a:visited, .copyright a:hover, .copyright a:active {
+    color: #d6d6d6;
+}
+
+.fcm {
+    margin: 16px 0 0 21px;
+    padding: 0;
+    border: 0;
+}
+
+#bottom-jukebox {
+    float: right;
+    margin: -215px 0 0 0;
+    padding: 0 30px 0 0;
+}
+
+#bottom-jukebox img {
+    width: 262px;
+    height: 215px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/*____________________________________________________________________________________________ index Layout _*/
+
+#content-basic {
+    padding: 20px;
+}
+
+#innerfade {
+    width: 607px;
+    height: 327px;
+    margin: 0;
+    float: left;
+}
+
+#innerfade img {
+    width: 607px;
+    height: 327px;
+}
+
+#welcome {
+    width: 245px;
+    float: right;
+    padding: 10px 20px 0 0;
+    font-style: italic;
+}
+
+#threescompany {
+    clear: both;
+    padding: 20px 0 0 0;
+}
+
+.threebreaker {
+    width: 22px;
+    height: 100px;
+    float: left;
+}
+
+a.threelink, a.threelink:visited {
+    width: 292px;
+    float: left;
+    text-decoration: none;
+    padding: 5px 0 0 0;
+    color: #434343;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+a.threelink:hover, a.threelink:active {
+    background: url("/_ima/threefade.jpg") repeat-x #CF0505 0 180px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.threelink p {
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.threelink img {
+    border: 0;
+    display: block;
+}
+
+a.threelink img.threetitle {
+    position: absolute;
+    margin: 15px 0 0 0;
+}
+
+/*____________________________________________________________________________________________ Location Layout _*/
+
+#googlemap {
+    border: 5px solid #F00202;
+}
+
+#googlemap iframe {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/*____________________________________________________________________________________________ Menu Layout _*/
+
+
+.botw {
+    background: url("/_ima/red-fade.jpg") repeat-x #F0080A;
+    width: 596px;
+    min-height: 160px;
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.botwphoto {
+    width: 245px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.botw p {
+    width: 320px;
+    float: right;
+    margin: 0;
+    padding: 13px 10px 0 0;
+    color: #fda5a5;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.botw img {
+    margin: 0 0 3px 0;
+    padding: 0;
+    display: block;
+}
+
+.buildbox {
+    float: right;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: block;
+    border: 0;
+}
+
+.buildbox2 {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 0;
+}
+
+.menu-left {
+    width: 292px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-center {
+    width: 292px;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 22px;
+}
+
+.menu-right {
+    width: 292px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-left, .menu-center, .menu-right {
+    font-size: 10pt;
+    line-height: 14pt;
+}
+
+.menu-left p, .menu-center p, .menu-right p {
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.menu-left strong, .menu-center strong, .menu-right strong {
+    color: #CF0505;
+    font-size: 12pt;
+}
+
+.menu-left h3, .menu-center h3, .menu-right h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-left h3 img, .menu-center h3 img, .menu-right h3 img {
+    margin: 0;
+    padding: 10px 0 5px 0;
+    display: block;
+}
+
+.breakfastmenu {
+    background: url("/_ima/breakfast-bottom.gif") no-repeat #FFFFDF 20px bottom;
+    padding: 20px 20px 70px 20px;
+    border-top: 1px solid #FEFF7F;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/*____________________________________________________________________________________________ Build a Burger Layout _*/
+
+
+.welcome-bab {
+    background: url("/_ima/red-fade.jpg") repeat-x #F0080A;
+    width: 596px;
+    min-height: 160px;
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.welcome-bab p {
+    margin: 0;
+    padding: 13px 10px 0 15px;
+    color: #fda5a5;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.build-four {
+    background-color: #eee;
+    width: 210px;
+    float: left;
+    padding: 0 0 10px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.build-four:hover {
+    background-color: #DFF4FF;
+}
+
+.build-four-breaker {
+    width: 13px;
+    height: 100px;
+    float: left;
+}
+
+.build-four p {
+    margin: 0;
+    padding: 0;
+}
+
+.input-builders {
+    background-color: #eee;
+    width: 200px;
+    height: 158px;
+    margin: 0;
+    padding: 12px 10px 0 10px;
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.input-builders:hover {
+    background-color: #DFF4FF;
+}
+
+.input-builders img {
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+.input-builders input {
+    clear: both;
+}
+
+/*____________________________________________________________________________________________ About Layout _*/
+
+.about-left {
+    width: 292px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.about-right {
+    width: 605px;
+    float: right;
+    font-size: 10pt;
+    line-height: 14pt;
+}
+
+.about-left p, .about-right p {
+    padding-left: 5px;
+}
+
+.about-right p strong {
+    color: #CF0505;
+    font-size: 12pt;
+}
+
+/*____________________________________________________________________________________________ Jukebox Layout _*/
+
+#jukebox {
+    padding: 0 0 0 6px;
+}
+
+.jukebox-title {
+    float: left;
+    border: 0;
+}
+
+.jukebox-previous {
+    background: url("/_ima/jukebox-prev.jpg") no-repeat;
+    width: 84px;
+    height: 100px;
+    float: left;
+}
+
+.jukebox-play {
+    background: url("/_ima/jukebox-play.jpg") no-repeat;
+    width: 84px;
+    height: 100px;
+    float: left;
+}
+
+.jukebox-pause {
+    background: url("/_ima/jukebox-pause.jpg") no-repeat;
+    width: 84px;
+    height: 100px;
+    float: left;
+}
+
+.jukebox-next {
+    background: url("/_ima/jukebox-next.jpg") no-repeat;
+    width: 84px;
+    height: 100px;
+    float: left;
+}
+
+.jukebox-stop {
+    background: url("/_ima/jukebox-stop.jpg") no-repeat;
+    width: 84px;
+    height: 100px;
+    float: left;
+}
+
+.jukeboxhover:hover, .jukeboxhover:active {
+    background-position: 0 -100px;
+}
+
+#jukebox-extra {
+    background: url("/_ima/jukebox-extra.png") no-repeat;
+    width: 313px;
+    height: 100px;
+    float: left;
+}
+
+/*____________________________________________________________________________________________ Equal Heights Layout _*/
+
+.block {
+    width: 238px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    background-color: #EFEFEF;
+    float: left;
+    border: 1px solid #DFDFDF;
+}
+
+/*____________________________________________________________________________________________ Gallery Layout _*/
+
+a.gallerylink img, a.gallerylink:visited img {
+    width: 130px;
+    height: 85px;
+    float: left;
+    margin: 0 9px 10px 8px;
+    border: 2px solid #0573F8;
+    text-decoration: none;
+}
+
+a.gallerylink:hover img, a.gallerylink:active img {
+    border: 2px solid #EE0809;
+    text-decoration: none;
+}
+
+a.different-galleries {
+    background-color: #eee;
+    width: 267px;
+    margin: 0 0 3px 0;
+    padding: 10px 8px 8px 8px;
+    float: left;
+    line-height: 11pt;
+    color: #434343;
+}
+
+a.different-galleries:hover {
+    background-color: #DFF4FF;
+    text-decoration: none;
+}
+
+/*____________________________________________________________________________________________ Calendar Layout _*/
+
+.date-container {
+    background: url("/_ima/date-bg.jpg") no-repeat;
+    width: 49px;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.date-month {
+    text-align: center;
+    height: 17px;
+    line-height: 17px;
+    font-size: 11px;
+    margin: 0;
+    padding: 0 0 0 1px;
+    color: #fff;
+}
+
+.date-day {
+    text-align: center;
+    height: 25px;
+    line-height: 27px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #005E94;
+}
+
+.date-header {
+    margin: 10px 0 0 10px;
+    padding: 0;
+    float: left;
+    width: 400px;
+}
+
+/*____________________________________________________________________________________________ Contact Layout _*/
+
+#RT50-Contact, #RT50-Birthday {
+    padding: 15px 0 0 0;
+}
+
+.input-names {
+    width: 150px;
+    height: 20px;
+    padding: 3px 0 0 5px;
+    margin: 0 0 10px 0;
+    float: left;
+}
+
+.inputs {
+    width: 200px;
+    height: 20px;
+    padding: 3px 0 0 5px;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 16px;
+    border: 1px solid #CFC9C2;
+}
+
+.selects {
+    width: 207px;
+    height: 25px;
+    padding: 2px 0 2px 0;
+    margin: 0 10px 0 0;
+    float: left;
+    font-size: 16px;
+    border: 1px solid #CFC9C2;
+}
+
+.textareas {
+    width: 369px;
+    height: 65px;
+    padding: 2px 0 2px 5px;
+    float: left;
+    font-size: 16px;
+    font-family: verdana, serif;
+    border: 1px solid #CFC9C2;
+}
+
+#submit-btn {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 155px;
+    float: left;
+}
+
+.inputs:focus {
+    border: 1px solid red;
+}
+
+select:focus {
+    border: 1px solid red;
+}
+
+textarea:focus {
+    border: 1px solid red;
+}
+
+.error {
+    color: red;
+}
